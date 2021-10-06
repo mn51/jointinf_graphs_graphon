@@ -3,10 +3,11 @@ Joint topology inference of multiple graphs assuming graphs are sampled from the
 The code in this repository contains the methods necessary for reproducing the figures used in the paper [1] submitted to ICASSP 2022.
 
 This repository is organized as follows:
-- **jointinf:** contains the joint inference methods with and without augmentations from graphon sampling assumptions
-- **helper.py:** contains useful functions for optimization steps and graphon sampling
-- **fig2a_samenodeset.py**: includes the code for Fig. 2a in the paper
-- **fig2b_samenodeset.py**: includes the code for Fig. 2b in the paper
+- **jointinf:** contains the joint inference methods with and without augmentations from graphon sampling assumptions.
+- **senate_data:** contains CSV files of congressional members, votes, parties, and rollcolls for various congresses.
+- **helper.py:** contains useful functions for optimization steps and graphon sampling.
+- **fig2a_samenodeset.py**: includes the code for Fig. 2a in the paper.
+- **fig2b_samenodeset.py**: includes the code for Fig. 2b in the paper.
 
 For Fig. 2c in the paper, run `fig2b_samenodeset.py` using data from [voteview.com](https://voteview.com/) [2].
 ```
